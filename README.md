@@ -1,21 +1,18 @@
-# ⚡ Web3 Wallet Sentinel & Live Alert Bot
+# ⚡ Web3 Wallet Sentinel & Live Alert Engine
 
-A high-performance, real-time Ethereum blockchain wallet and ERC-20 token tracking engine built with Python. Delivers instant Discord webhook notifications for wallet inflows, outflows, and balance shifts without requiring third-party paid APIs.
+A lightweight, zero-dependency, multi-chain on-chain wallet and ERC-20 token tracking engine built with Python. Delivers instant, color-coded Discord Webhook alerts for wallet inflows, outflows, and balance shifts directly via native JSON-RPC without requiring third-party paid APIs.
 
-## 🚀 Features
-- **Multi-Node Failover RPC:** High availability with zero-dependency direct JSON-RPC calls.
-- **State Change Detection:** Smart alerting exclusively on verified balance variations.
-- **Multi-Asset Support:** Native ETH alongside ERC-20 tokens (USDT, USDC, etc.).
-- **Rich Embed Notifications:** Instant visual alerts with direction, volume, and tx timestamps.
+---
 
-## 🛠️ Tech Stack
-- **Language:** Python 3.10+
-- **Blockchain Interface:** Ethereum JSON-RPC
-- **Alert Channel:** Discord Webhook API
-- **Dependencies:** `requests`
+## 🚀 Key Features
 
-## ⚙️ Quick Start
-1. Clone the repo:
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/web3-wallet-sentinel.git](https://github.com/YOUR_USERNAME/web3-wallet-sentinel.git)
-   cd web3-wallet-sentinel
+* **Multi-Chain Architecture:** Native support for **Ethereum Mainnet** and **Base Mainnet (Layer-2)**.
+* **Zero Third-Party API Costs:** Direct low-level JSON-RPC calls (`eth_getBalance`, `eth_call`) with zero dependency on expensive indexed APIs.
+* **Multi-Node Failover Engine:** High availability with automated round-robin failover across multiple public RPC nodes to bypass rate limits.
+* **ERC-20 & Native Asset Support:** Real-time balance shift tracking for Native ETH, USDT, USDC, DAI, etc.
+* **Instant Discord Webhooks:** Formatted Rich Embed alerts with automatic state-change detection (Inflow vs Outflow color coding).
+
+---
+
+## 📸 Live Alerts Preview
+
